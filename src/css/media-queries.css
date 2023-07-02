@@ -1,0 +1,18 @@
+@media(hover: hover){
+  .main-menu__li{
+    cursor: pointer;
+  }
+  .main-menu__li:hover {
+    color: var(--emphasis-color-1);
+  }
+  
+}
+
+@media screen and (min-width: 800px) {
+    .main-header {
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+
+        font-size: 1.2rem;
+    }
+}
